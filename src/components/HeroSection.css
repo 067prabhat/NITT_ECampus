@@ -1,0 +1,31 @@
+.hero-section {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+    color: white;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .apply-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #e9ecef;
+  }
+  

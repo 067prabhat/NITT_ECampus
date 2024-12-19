@@ -1,0 +1,82 @@
+.application-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-page {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-button {
+    background-color: #6c757d;
+  }
+  
+  .back-button:hover {
+    background-color: #5a6268;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .application-form {
+      padding: 1rem;
+    }
+  
+    button {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  
